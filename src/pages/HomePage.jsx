@@ -5,7 +5,7 @@ export default function HomePage() {
     <div>
         <PageNav/>
         <h1>Home Page</h1>
-        <Link to="pricing">Pricing</Link>
+        <Link to="/app">Go to the app</Link>
     </div>
   )
 }
