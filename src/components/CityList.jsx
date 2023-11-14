@@ -1,5 +1,9 @@
+import styles from "./CityList.module.css"
+
 export default function CityList() {
   return (
-    <div>CityList</div>
+    <ul className={styles.cityList}>
+      List
+    </ul>
   )
 }
