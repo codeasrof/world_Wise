@@ -31,5 +31,15 @@
     color: var(--color-dark--0);
     padding: 0.8rem 2rem;
     border-radius: 7px;
-  }
+}
+
+
+
+@media screen and (max-width: 900px){
+   .nav{
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+   }
+}
   

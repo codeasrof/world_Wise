@@ -24,3 +24,9 @@
   flex-direction: column;
   gap: 0.5rem;
 }
+
+@media screen and (max-width: 900px){
+  .login form{
+    max-width: 100%;
+  }
+}
