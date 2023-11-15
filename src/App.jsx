@@ -9,6 +9,7 @@ import Homepage from "./pages/Homepage"
 import { useEffect, useState } from "react"
 import CountriesList from "./components/CountriesList"
 import City from "./components/City"
+import Form from "./components/Form"
 
 const BASE_URL = "http://localhost:8000"
 
@@ -45,7 +46,7 @@ export default function App() {
           <Route path="cities" element={<CityList cities={cities} isLoading={isLoading}/>} />
           <Route path="cities/:id" element={<City/>} />
           <Route path="countries" element={<CountriesList cities={cities} isLoading={isLoading}/>} />
-          <Route path="form" element={<p>List of form</p>} />
+          <Route path="form" element={<Form/>} />
           
         </Route>
         <Route path="*" element={<PageNotFound/>} />
