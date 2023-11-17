@@ -15,7 +15,7 @@ function City() {
   const [searchParams, setSearchParams] = useSearchParams()
   const lat = searchParams.get("lat")
   const lng = searchParams.get("lng")
-
+  
   const currentCity = {
     cityName: "Lisbon",
     emoji: "🇵🇹",
